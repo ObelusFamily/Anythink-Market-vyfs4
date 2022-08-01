@@ -17,5 +17,23 @@ First Steps:
 ```
 git clone https://github.com/ObelusFamily/Anythink-Market-vyfs4.git
 cd Anythink-Market-vyfs4
+```
+## Install Docker
+
+You can install it from here - (Docker)[https://docs.docker.com/get-docker/]
+
+## Verify the Installation of Docker
 
 ```
+docker -v
+docker-compose -v
+
+```
+
+## Run the project locally using Docker
+ Go to your root directory and type:
+ ```
+ docker-compose up
+ ```
+ 
+ 
