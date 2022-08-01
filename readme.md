@@ -11,3 +11,33 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+First Steps:
+
+```
+git clone https://github.com/ObelusFamily/Anythink-Market-vyfs4.git
+cd Anythink-Market-vyfs4
+```
+## Install Docker
+
+You can install it from here - [https://docs.docker.com/get-docker/]
+
+## Verify the Installation of Docker
+
+```
+docker -v
+docker-compose -v
+
+```
+
+## Run the project locally using Docker
+ Go to your root directory and type:
+ ```
+ docker-compose up
+ ```
+ 
+ To check the project working fine, redirect your browser to http://localhost:3000/api/ping
+ 
+ After checking Backend, check the frontend by visiting this: http://localhost:3001/register
+ 
+ If it is working fine, you can now sign up!
