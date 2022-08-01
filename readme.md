@@ -20,7 +20,7 @@ cd Anythink-Market-vyfs4
 ```
 ## Install Docker
 
-You can install it from here - (Docker)[https://docs.docker.com/get-docker/]
+You can install it from here - [https://docs.docker.com/get-docker/]
 
 ## Verify the Installation of Docker
 
@@ -36,4 +36,8 @@ docker-compose -v
  docker-compose up
  ```
  
- To check the project working fine, redirect your browser to [http://localhost:3000/api/ping]
+ To check the project working fine, redirect your browser to http://localhost:3000/api/ping
+ 
+ After checking Backend, check the frontend by visiting this: http://localhost:3001/register
+ 
+ If it is working fine, you can now sign up!
