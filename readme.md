@@ -36,4 +36,4 @@ docker-compose -v
  docker-compose up
  ```
  
- 
+ To check the project working fine, redirect your browser to [http://localhost:3000/api/ping]
